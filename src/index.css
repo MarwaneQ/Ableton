@@ -30,4 +30,23 @@ body{
 @font-face {
   font-family: futura;
   src: url('/public/font/FuturaCyrillicMedium.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: futura;
+  src: url('/public/font/FuturaCyrillicLight.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: futura;
+  src: url('/public/font/FuturaCyrillicBold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: futura;
+  src: url('/public/font/FuturaCyrillicBook.ttf');
+  font-weight: 300;
+  font-style: normal;
 }
