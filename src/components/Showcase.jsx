@@ -15,10 +15,14 @@ function Showcase() {
         </div>
     </div>
     <div className='flex justify-center bg-white w-auto p-10'>
-    <Section title='Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s incredibly rewarding.' paragh='We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.
-' />
+    <Section title='Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s incredibly rewarding.' paragh='We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.' />
     </div>
-    
+    <div className='bg-white w-auto  flex justify-center lg:h-[30em] md:h-[30em] h-[14em] p-6'>
+    <iframe  className='lg:h-[480px] w-[800px] md:h-[480px] md:w-[800px] h-[240px]' src="https://www.youtube.com/embed/9SbnhgjeyXA?enablejsapi=1&origin=https%3A%2F%2Fwww.ableton.com&widgetid=1"  allowfullscreen></iframe>
+    </div>
+    <div className='flex justify-center bg-white w-auto p-10'>
+    <Section title=' We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.' paragh='Most of us are active musicians, producers, and DJs, and many of us use Live and Push every day. We come from a wide range of cultural and professional backgrounds. Some of us have PhDs, some are self-taught, and most of us are somewhere in between. What connects us is the shared belief that each of us has the skills and knowledge to contribute to something big: helping to shape the future of music culture.' />
+    </div>
     </>
   )
 }
