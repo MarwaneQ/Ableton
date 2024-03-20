@@ -6,6 +6,7 @@ import photo4 from '/photo-4.jpg'
 import photo5 from '/photo-5.jpg'
 import photo6 from '/photo-6-a.jpg'
 import photo7 from '/photo-7.jpg'
+import photo8 from '/photo-8.jpg'
 import poster from '/poster-meet-the-makers.avif'
 import Section from './Section'
 function Showcase() {
@@ -17,14 +18,13 @@ function Showcase() {
             <img src={photo2} className='lg:w-4/5 md:w-4/5 w-20 object-cover p-2' />
         </div>
         <div>
-          
         </div>
     </div>
     <div className='flex justify-center bg-white w-auto p-10'>
     <Section title='Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s incredibly rewarding.' paragh='We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.' />
     </div>
     <div className='bg-white w-auto  flex justify-center lg:h-[30em] md:h-[30em] h-[14em] p-6'>
-    <iframe  className='lg:h-[480px] w-[800px] md:h-[480px] md:w-[800px] h-[240px]' src="https://www.youtube.com/embed/9SbnhgjeyXA?enablejsapi=1&origin=https%3A%2F%2Fwww.ableton.com&widgetid=1"  allowfullscreen></iframe>
+    <iframe  className='lg:h-[480px] w-[800px] md:h-[480px] md:w-[800px] h-[240px]' src="https://www.youtube.com/embed/9SbnhgjeyXA?enablejsapi=1&origin=https%3A%2F%2Fwww.ableton.com&widgetid=1" ></iframe>
     </div>
     <div className='flex justify-center bg-white w-auto p-10'>
     <Section title=' We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.' paragh='Most of us are active musicians, producers, and DJs, and many of us use Live and Push every day. We come from a wide range of cultural and professional backgrounds. Some of us have PhDs, some are self-taught, and most of us are somewhere in between. What connects us is the shared belief that each of us has the skills and knowledge to contribute to something big: helping to shape the future of music culture.' />
@@ -60,6 +60,19 @@ Alongside an internal training program, employees are actively supported in acqu
     <div className='flex justify-center bg-white w-auto p-10'>
     <Section title='We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.
 ' paragh='If you re joining us in Berlin well help with relocation and paperwork. Well even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.' />
+    </div>
+    <div className='flex p-10 bg-white h-full flex-wrap'>
+      <div className='lg:w-2/4 	'>
+        <img src={photo8} className='h-full  ' />
+      </div>
+      <div className='bg-[#b1c5ff] lg:w-2/4	flex flex-col  justify-center lg:p-28 p-10'>
+        <h2 className='lg:text-4xl	'>We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</h2>
+        <a href="https://www.ableton.com/en/jobs/" className='text-[#0000ff] lg:text-3xl mt-8  flex items-center	'>See lastest jobs <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m9 5 7 7-7 7" className='text-[#0000ff]'/>
+</svg>
+ </a>
+      </div>
+      <hr />
     </div>
     </>
   )
